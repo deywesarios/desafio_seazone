@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 from django.db import models
 from django.utils import timezone
 
@@ -18,7 +17,7 @@ class Cleaning(models.Model):
 
     def __str__(self):
         return self.status
-=======
+
 from django.db import models
 from django.utils import timezone
 
@@ -38,4 +37,4 @@ class Cleaning(models.Model):
 
     def __str__(self):
         return self.status
->>>>>>> 7ecf0588ac716eb8e28267220c531014cd74540b
+
